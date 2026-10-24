@@ -1,0 +1,30 @@
+{
+  "url": "https://herongio.github.io/desktop-tutorial/",
+  "verifiedAt": "2026-10-24T10:58:58.253Z",
+  "browser": "154.0.8037.57",
+  "transport": "Live HTTPS resources fetched by curl with existing system CA verification, delivered to Chromium by request interception. No TLS verification was disabled and no CA trust store was changed. Native Chromium HTTPS navigation remains unverified due to environment proxy CA trust.",
+  "verifiedResources": {
+    "https://herongio.github.io/desktop-tutorial/": 936,
+    "https://herongio.github.io/desktop-tutorial/assets/index-CetzNwqj.js": 36815,
+    "https://herongio.github.io/desktop-tutorial/assets/index-ByeC76Pw.css": 20881,
+    "https://herongio.github.io/desktop-tutorial/assets/ai.worker-DUolZxot.js": 3620
+  },
+  "results": [
+    {
+      "device": "desktop Chromium",
+      "aiReply": "passed",
+      "reload": "passed",
+      "hint": "passed",
+      "exportImport": "passed",
+      "errors": []
+    },
+    {
+      "device": "mobile Chromium touch emulation",
+      "aiReply": "passed",
+      "reload": "passed",
+      "hint": "passed",
+      "exportImport": "passed",
+      "errors": []
+    }
+  ]
+}

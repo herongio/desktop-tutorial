@@ -2,6 +2,8 @@
 
 한 수에, 온전히. 가입 없이 바로 즐기는 브라우저 오목 게임입니다.
 
+**[오목 바로 플레이하기](https://herongio.github.io/desktop-tutorial/)**
+
 기존 저장소에는 GitHub Desktop 연습용 README만 있었으며, 사용자의 신규 구현 요청에 따라 만들었습니다. TypeScript + Vite 정적 웹 앱으로, 계정·백엔드·유료 API·외부 엔진 없이 실행합니다.
 
 ## 실행
