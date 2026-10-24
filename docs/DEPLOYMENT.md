@@ -2,6 +2,16 @@
 
 대상 저장소는 `herongio/desktop-tutorial`, 사이트 경로는 `/desktop-tutorial/`이다. 저장소 자체의 공개/비공개 설정은 변경하지 않는다.
 
+## 현재 진행 상태
+
+- 2026-10-24: 게임 소스를 `main`에 반영했다(`dbc4fd5`).
+- 정적 산출물과 `.nojekyll`을 `gh-pages`에 반영했다(`53f1817`). 강제 push는 사용하지 않았다.
+- `/desktop-tutorial/` 경로로 제공한 빌드를 실제 Chromium에서 열어 AI 응수·새로고침 복원·힌트를 검증했다. JS/CSS/Worker 로딩 오류는 없었다.
+- GitHub API에서 저장소가 비공개이며 `has_pages: false`임을 확인했다. Pages 조회와 생성 요청 모두 연결된 앱의 권한 제한으로 `403 Resource not accessible by integration`을 반환했다.
+- 따라서 **Pages 활성화와 공개 사이트 검증은 미완료**다. 예정 주소는 확인 시점에 HTTP 404를 반환했다. 아래 설정은 저장소 관리자가 GitHub 화면에서 완료해야 한다. 인증 값을 채팅으로 공유할 필요는 없다.
+
+## 빌드와 활성화
+
 ```bash
 npm ci --cache /tmp/omok-npm-cache --no-audit --no-fund
 npm run build:pages
