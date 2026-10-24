@@ -1,0 +1,33 @@
+{
+  "browser": "154.0.8037.57",
+  "platform": "linux",
+  "viewport": "1440x1100 headless Chromium",
+  "build": "production preview",
+  "caveat": "One sample per position on a cloud CPU; frame gaps and automation click completion are not physical-device input-latency guarantees. Heap figures exclude Worker heaps.",
+  "bundledWorkerReply": "passed",
+  "errors": [],
+  "samples": [
+    {
+      "name": "opening",
+      "plies": 4,
+      "endToEndMs": 995.6481289999999,
+      "themeClickMs": 100.20141600000011,
+      "hint": "J9 · 공격 가능성과 상대의 응수를 함께 고려한 후보입니다. 제한된 탐색의 추정이며 정답을 보장하지 않습니다. 완료 깊이 5 · 752ms.",
+      "frameCount": 58,
+      "maxFrameGapMs": 33.26999999999998,
+      "longTasks": [],
+      "usedJSHeapBytes": 2466351
+    },
+    {
+      "name": "middlegame",
+      "plies": 20,
+      "endToEndMs": 911.9575490000002,
+      "themeClickMs": 60.669634000000315,
+      "hint": "F6 · 공격 가능성과 상대의 응수를 함께 고려한 후보입니다. 제한된 탐색의 추정이며 정답을 보장하지 않습니다. 완료 깊이 5 · 386ms.",
+      "frameCount": 54,
+      "maxFrameGapMs": 33.26800000000003,
+      "longTasks": [],
+      "usedJSHeapBytes": 2645883
+    }
+  ]
+}
